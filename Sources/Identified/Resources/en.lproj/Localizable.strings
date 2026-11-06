@@ -1,0 +1,381 @@
+/* Shared */
+"flow.step" = "Step %ld of %ld";
+
+/* Status */
+"status.no_case" = "No verification in progress.";
+
+/* Document labels (flow.ts DOC_LABELS) */
+"doc.government_id" = "Government ID";
+"doc.license_front" = "Front of ID";
+"doc.license_back" = "Back of ID";
+"doc.selfie" = "Biometric selfie";
+"doc.proof_of_address" = "Proof of address";
+
+/* Flow chrome */
+"flow.close" = "Close";
+
+/* Entry (Entry.tsx) */
+"entry.checking" = "Checking your verification link…";
+"entry.unavailable.title" = "Couldn't verify your link";
+"entry.unavailable.body" = "We couldn't reach the verification service. Check your connection and try again.";
+"entry.unavailable.retry" = "Try again";
+"entry.title" = "Verify your identity";
+"entry.body" = "%@ asked us to confirm it’s you. You’ll go straight back to them when you’re done.";
+"entry.brand_fallback" = "the business that sent you";
+"entry.small_print" = "%@ Your data is encrypted and used only for this check.";
+"entry.duration_long" = "Takes a few minutes.";
+"entry.duration_short" = "It only takes a minute.";
+"entry.begin" = "Begin verification";
+"entry.continue" = "Continue verification";
+
+/* Consent (Consent.tsx) */
+"consent.title" = "Consent & privacy";
+"consent.subtitle" = "To verify your identity, %@ uses Identified to collect and check the information below.";
+"consent.brand_fallback" = "this business";
+"consent.learn_more" = "Learn more";
+"consent.show_less" = "Show less";
+"consent.collect.title" = "What we collect";
+"consent.collect.liveness" = ", a short liveness check (turning your head)";
+"consent.collect.tail" = ", and the details you enter.";
+"consent.collect.none" = "The details you enter.";
+"consent.collect.more1" = "Each document is captured in this flow and stored encrypted. We keep the image, the details read from it, and a record of when you submitted it.";
+"consent.collect.more2" = "The details you enter — your name, date of birth and ID number — are compared against what your document says. A mismatch is flagged for a person to look at, not treated as fraud.";
+"consent.collect.more3" = "Your proof of address needs to be a utility bill, bank statement or equivalent from the last 3 months showing your name and address.";
+"consent.biometric.title" = "Biometric data";
+"consent.biometric.body" = "Your selfie and liveness images confirm that you are a real, live person and that your face matches the photo on your ID.";
+"consent.biometric.more1" = "The liveness check is a short movement prompt. It distinguishes a live person from a photo, a mask or a screen replay.";
+"consent.biometric.more2" = "Face match compares your selfie to the photo on your ID and produces a similarity score. It is not used to search for you in any other database, and we do not run face recognition against the public internet.";
+"consent.biometric.more3" = "Biometric data is treated as a special category of personal data everywhere we operate, which is why it is asked for separately here and processed only for this verification.";
+"consent.background.title" = "Background screening";
+"consent.background.body" = "We screen you against published sanctions and watchlists, verify any licence you hold with the authority that issued it, and carry out criminal-record screening.";
+"consent.background.more1" = "Sanctions screening matches your name and date of birth against the published OFAC, United Nations and European Union consolidated lists. A hit is a possible match, not a finding — a person reviews it before anything is reported.";
+"consent.background.more2" = "Licence verification checks the licence number and its status directly with the issuing authority.";
+"consent.background.more3" = "Criminal-record screening is carried out manually by a trained operator, who records the evidence behind the result so it can be explained or challenged later.";
+"consent.background.more4" = "Your proof of address establishes where you live, which is what makes a name match meaningful rather than a coincidence.";
+"consent.background.more5" = "Identity verification and background screening are decided separately. Your identity result is issued as soon as it is ready and is never reversed automatically by a later screening finding.";
+"consent.review.title" = "Human review";
+"consent.review.body" = "A trained reviewer at Identified may look at what you submitted before a result is issued.";
+"consent.review.more1" = "Most cases are decided automatically. A case goes to a person when the automated checks disagree with each other, when an image is unclear, or when screening returns something that needs judgement.";
+"consent.review.more2" = "A reviewer sees your documents, your selfie and the check results. They do not see why you are being verified.";
+"consent.review.more3" = "An adverse screening finding always goes to a person. Nothing about your result changes on the strength of an unreviewed match.";
+"consent.review.more4" = "If a result was reached automatically, you can ask %@ to have a person review it.";
+"consent.use.title" = "How it’s used";
+"consent.use.body" = "Only to verify your identity%@ for %@. The result of the check is shared with %@.";
+"consent.use.and_background" = " and background";
+"consent.use.more1" = "%@ receives the outcome, the reasons behind it, and the documents you submitted for this verification.";
+"consent.use.more2" = "Identified is a service of Fentord Technologies Limited, a company registered in Ghana. It runs the checks and stores the evidence on behalf of the business that sent you here, and does not use your data for its own purposes.";
+"consent.use.more3" = "We never sell your data and never use it for advertising or profiling.";
+"consent.protection.title" = "Data protection";
+"consent.protection.body" = "Your data is encrypted in transit and at rest, and processed under the data-protection law of the country you are verified in.";
+"consent.protection.more1" = "Identified operates across Africa, so the law that applies is the one where you are — for example Ghana’s Data Protection Act 2012, Nigeria’s Data Protection Act 2023, Kenya’s Data Protection Act 2019 or South Africa’s POPIA — alongside the African Union’s Malabo Convention. The GDPR applies where you or your data are in the EU or UK.";
+"consent.protection.more2" = "Those regimes agree on the part that matters here: background screening needs your consent, and that consent has to be evidenced. This screen is that evidence — your agreement is recorded against your session with a version and a timestamp, on our side rather than in your browser.";
+"consent.protection.more3" = "Every connection uses TLS, and your documents and images are stored encrypted. What that does not mean is that nobody here can ever see them: deciding a case sometimes needs a person to look at a document, so access is restricted and logged rather than impossible. Anyone claiming end-to-end encryption for a check a human may review is overstating it.";
+"consent.protection.more4" = "You can complain to the Data Protection Commission or equivalent supervisory authority in your country at any time.";
+"consent.retention.title" = "Retention";
+"consent.retention.body" = "Your ID images and selfies are deleted a year after the check finishes, and the rest of the record after five years, unless deleted sooner.";
+"consent.retention.more1" = "Until the images are deleted, they are kept with the case so the result can be explained or challenged. After that, only the details read from your documents and the decision remain.";
+"consent.retention.more2" = "%@ can have Identified delete everything about you sooner, for example when you close your account with them. %@ may also keep its own copy of the result under its own policy; ask %@ about that.";
+"consent.retention.more3" = "A verification you start but do not finish is deleted after 30 days.";
+"consent.rights.title" = "Your rights";
+"consent.rights.body" = "Providing this data is voluntary, but verification can’t continue without it.";
+"consent.rights.more1" = "You can ask %@ for a copy of what was collected, ask for it to be corrected or deleted, or withdraw your consent.";
+"consent.rights.more2" = "Identified holds your data for %@, so a request to delete it goes to %@, which decides and has Identified erase it. If you can sign in to the Identified verification portal, you can send that request from there.";
+"consent.rights.more3" = "Withdrawing consent stops further processing. It does not undo a check that has already run, or a result already sent.";
+"consent.rights.more4" = "Contact %@ to exercise any of these. If you are not satisfied, you can go to your country’s data-protection authority.";
+"consent.data.identity" = "identity";
+"consent.data.biometric" = "biometric";
+"consent.data.background" = "background screening";
+"consent.data.one" = "%@ data";
+"consent.data.many" = "%@ and %@ data";
+"consent.agree.prefix" = "I have read and agree to the ";
+"consent.agree.terms" = "Terms of use";
+"consent.agree.suffix" = ", and I consent to the collection and processing of my %@ for verification.";
+"consent.agree.checkbox" = "I agree";
+"consent.button" = "Agree & continue";
+"consent.button_busy" = "Starting…";
+"consent.error" = "Could not start verification";
+
+/* Terms (Terms.tsx) */
+"terms.title" = "Terms of use";
+"terms.brand_fallback" = "the business that sent you here";
+"terms.1.title" = "1. Who you are dealing with";
+"terms.1.p1" = "Identified (identified.cc) is a service of Fentord Technologies Limited, a company registered in Ghana. It provides identity verification and background screening, and these terms cover your use of this verification flow.";
+"terms.1.p2" = "%@ asked you to verify. They decide what is checked, what the result is used for, and how long records are kept. Identified carries out the checks on their instructions and returns the result to them.";
+"terms.1.p3" = "This means there are two relationships: yours with Identified for the flow itself, and yours with the business that sent you, which is governed by their own terms. Nothing here replaces theirs.";
+"terms.2.title" = "2. Using this flow";
+"terms.2.p1" = "You must be old enough to give consent under the law of the country you are in, and you must be verifying yourself. Do not use this flow on behalf of another person.";
+"terms.2.p2" = "Submit documents that are genuine, current, and yours. Submit images of yourself, taken live, at the point you are asked for them.";
+"terms.2.p3" = "Do not attempt to defeat the checks — no photographs of photographs, masks, screen replays, edited images, or documents belonging to someone else. Doing so may be a criminal offence, and the attempt is recorded and reported to the business that sent you.";
+"terms.3.title" = "3. What we check, and what we do not decide";
+"terms.3.p1" = "Depending on what the business selected, we may check that your document is genuine and unexpired, that your face matches its photo, that you are physically present, and that you do not appear on published sanctions and watchlists. We may verify a licence with the authority that issued it, and carry out criminal-record screening.";
+"terms.3.p2" = "A check produces evidence, not a verdict about you. Sanctions screening in particular matches names and dates of birth, and people share both — a possible match is reviewed by a person before it is reported as anything.";
+"terms.3.p3" = "Identified does not decide whether you get the job, the account, or the ride. That decision belongs to the business that sent you, and any appeal against it goes to them.";
+"terms.4.title" = "4. Automated processing and human review";
+"terms.4.p1" = "Most checks run automatically. A case is routed to a trained reviewer when the automated checks disagree, when an image cannot be read, or when screening returns something that needs judgement.";
+"terms.4.p2" = "Where a background screening finding is adverse, a person always decides what happens next. Nothing is reversed automatically on an unreviewed match.";
+"terms.4.p3" = "You can ask the business that sent you to have a person review any result reached about you.";
+"terms.5.title" = "5. Your data";
+"terms.5.p1" = "What we collect, why, and how long it is kept is set out on the Consent & privacy screen. Your agreement there is recorded with a version and a timestamp as evidence that it was given.";
+"terms.5.p2" = "Identified deletes ID images and selfies a year after a check finishes and the rest of the record after five years, or sooner when the business that sent you asks. Unfinished verifications are deleted after 30 days.";
+"terms.5.p3" = "Your biometric data is used to confirm you are live and that your face matches your document. It is not used to identify you anywhere else, and it is not sold, shared for advertising, or used to train anything.";
+"terms.5.p4" = "You can withdraw consent, or ask for your data to be deleted, by contacting the business that sent you (or, for deletion, through the Identified verification portal, which passes the request to them). Withdrawing stops further processing; it does not undo a check that has already run or a result already delivered.";
+"terms.6.title" = "6. Availability";
+"terms.6.p1" = "This flow is provided as-is. Verification links expire, cameras fail, and third-party authorities go offline; we do not promise the service will be uninterrupted or that a check will always complete.";
+"terms.6.p2" = "Nothing in these terms limits liability for fraud, for death or personal injury caused by negligence, or for anything else that cannot be limited under the law that applies to you.";
+"terms.7.title" = "7. Law, changes and contact";
+"terms.7.p1" = "Fentord Technologies Limited is registered in Ghana, and these terms are governed by Ghanaian law. That choice does not take anything away from you: any consumer or data-protection right you hold under the law of your own country applies regardless of what these terms say, and cannot be signed away here.";
+"terms.7.p2" = "In particular, you keep the right to complain to the data-protection authority where you are — a Data Protection Commission or its equivalent — whatever these terms say.";
+"terms.7.p3" = "Terms in force for this session: version %@. If they change, the version recorded against your session stays the one you agreed to.";
+"terms.7.p4" = "Questions about the flow itself: hello@identified.cc (Fentord Technologies Limited, Ghana). Questions about why you were asked to verify, what the result was used for, or how long it is kept: the business that sent you.";
+"flow.done" = "Done";
+
+/* Your name (YourName.tsx) */
+"name.title" = "Your name";
+"name.subtitle" = "Enter your names exactly as they appear on your ID.";
+"name.previous" = "Previously supplied name: %@. Confirm it in the fields below.";
+"name.first" = "First name";
+"name.middle" = "Middle name (optional)";
+"name.last" = "Last name";
+"name.missing" = "Enter your first and last names as they appear on your ID.";
+"name.too_long" = "Your full name must be no more than 256 characters.";
+"name.error" = "Failed to save your name";
+"flow.continue" = "Continue";
+"flow.saving" = "Saving…";
+
+/* ID details (IdDetails.tsx) */
+"id.title" = "Your ID details";
+"id.subtitle" = "Enter these exactly as they appear on your ID.";
+"id.dob" = "Date of birth";
+"id.type" = "Government ID type";
+"id.type_placeholder" = "Select";
+"id.number" = "Government ID number";
+"id.number_ghana" = "Ghana Card PIN";
+"id.ghana_helper" = "Format: GHA-XXXXXXXXX-X (as printed on your Ghana Card)";
+"id.missing_dob" = "Select your date of birth.";
+"id.missing_type" = "Select the type of ID you want to use.";
+"id.invalid_ghana" = "Enter a valid Ghana Card number in the format GHA-XXXXXXXXX-X.";
+"id.error" = "Failed to save ID details";
+
+/* Checklist (Checklist.tsx) */
+"checklist.title" = "Verify your identity";
+"checklist.subtitle" = "Just a few quick steps — it takes about a minute.";
+"checklist.loading" = "Loading your checklist…";
+"checklist.error" = "Failed to load";
+"checklist.retry" = "Try again";
+"checklist.done" = "Done";
+"checklist.required" = "Required";
+"checklist.changes.title" = "Changes requested";
+"checklist.changes.body" = "Choose what needs updating. Your other saved uploads will be kept.";
+"checklist.changes.name" = "Update name";
+"checklist.changes.details" = "Update ID details";
+"checklist.replace" = "Replace %@";
+
+/* Camera (CameraCapture.tsx, cameraErrors.ts) */
+"camera.back" = "Back";
+"camera.starting" = "Starting camera";
+"camera.capture" = "Capture %@";
+"camera.retake" = "Retake";
+"camera.use" = "Use this photo";
+"camera.preview" = "%@ preview";
+"camera.denied.title" = "Camera permission denied";
+"camera.denied.body" = "Camera access is turned off for this app. Allow it in Settings, then come back to continue.";
+"camera.denied.settings" = "Open Settings";
+"camera.failed.title" = "Camera error";
+"camera.failed.body" = "The camera could not be started. Close other apps that use the camera and try again.";
+"camera.retry" = "Try again";
+
+/* Capture briefs (captureBriefs.ts) */
+"brief.card.point1" = "Rest it on a dark, plain surface — the edges have to stand out from what is behind them.";
+"brief.card.point2" = "Hold the camera flat above the card, not at an angle.";
+"brief.card.point3" = "Watch for reflections: overhead light bouncing off the surface is what usually spoils a shot.";
+"brief.license_front.lead" = "A photo of the front of your ID — the side with your photo.";
+"brief.license_back.lead" = "Now the back of the same ID.";
+"brief.license_back.point1" = "Turn it over and press it flat — a card that bows blurs the strip along the bottom.";
+"brief.license_back.point2" = "Camera flat above it again, filling the frame.";
+"brief.license_back.point3" = "The small print has to be readable, so check it before you keep the photo.";
+"brief.government_id.lead" = "A photo of your government ID.";
+"brief.open_camera" = "Open camera";
+
+/* Documents (Documents.tsx) */
+"documents.subtitle" = "Capture a clear photo — flat, sharp and glare-free.";
+"documents.uploading" = "Uploading…";
+"documents.error" = "Upload failed";
+
+/* Card camera hints (cardAutoCapture.ts) */
+"card.hint.fit_edges" = "Fit all four edges inside the frame";
+"card.hint.light" = "Move to better light";
+"card.hint.glare" = "Tilt the ID to remove glare";
+"card.hint.closer" = "Hold still and move closer";
+"card.hint.capturing" = "Hold steady — capturing automatically";
+
+/* Selfie (Selfie.tsx, CaptureStage.tsx, TurnChallenge.tsx) */
+"selfie.title" = "Liveness check";
+"brief.selfie.lead" = "A short check that you are really here, rather than a photo of a photo.";
+"brief.selfie.point1" = "Face a window or a lamp. Light behind you turns your face into a silhouette.";
+"brief.selfie.point2" = "Phone at eye level, about an arm’s length away.";
+"brief.selfie.point3" = "You will turn your head slowly left, then right. Take off sunglasses or a hat first.";
+"selfie.too_few" = "We could not capture enough distinct frames. Please repeat the head turn.";
+"selfie.review.text" = "This is the photo we'll match against your ID. Retake it if your face is blurred, turned away, or in shadow.";
+"selfie.review.alt" = "The photo that will be matched against your ID";
+"selfie.processing.scanning" = "Scanning your selfie";
+"selfie.processing.matching" = "Matching your face to your ID";
+"selfie.processing.detail" = "Kindly wait, this may take a few seconds.";
+"selfie.error" = "Selfie capture failed";
+"selfie.hint.preparing" = "Preparing the liveness check…";
+"selfie.hint.done" = "Liveness confirmed";
+"selfie.hint.center" = "Center your face in the circle";
+"selfie.hint.closer" = "Come closer";
+"selfie.hint.back" = "Move back a little";
+"selfie.hint.straight" = "Look straight at the camera";
+"selfie.hint.hold_photo" = "Hold still — taking your photo…";
+"selfie.hint.perfect" = "Perfect — hold it there";
+"selfie.hint.keep_left" = "Good — keep turning left";
+"selfie.hint.keep_right" = "Good — keep turning right";
+"selfie.hint.turn_left" = "Slowly turn your head to the left";
+"selfie.hint.centre" = "Back to centre";
+"selfie.hint.turn_right" = "Now turn your head to the right";
+"selfie.low_light" = "Low light — your screen is lighting your face. Turn brightness up or face a lamp or window.";
+"selfie.too_far" = "Too far — move closer";
+"selfie.too_close" = "Too close — move back";
+"selfie.countdown" = "Taking your photo in %ld";
+"selfie.pose.front" = "Front";
+"selfie.pose.left" = "Left";
+"selfie.pose.right" = "Right";
+"selfie.shutter" = "Take photo";
+"selfie.timed.ready" = "Center your face, then start the check.";
+"selfie.timed.left" = "Turn your head to the left  ←";
+"selfie.timed.center" = "… back to center";
+"selfie.timed.right" = "Now turn to the right  →";
+"selfie.timed.start" = "Start liveness check";
+
+/* Proof of address (ProofOfAddressCapture.tsx, DigitalAddressField.tsx) */
+"poa.address.prompt" = "First, where do you live?";
+"poa.address.label" = "GhanaPostGPS address";
+"poa.address.helper" = "The digital address of where you live, e.g. GA-183-9124. Find it in the GhanaPostGPS app.";
+"poa.address.find" = "Find my address";
+"poa.address.checking" = "Checking";
+"poa.address.unknown" = "Don’t know your code?";
+"poa.address.location" = "My location";
+"poa.address.location_label" = "Use my current location";
+"poa.address.footnote" = "Use the place you live, not where you happen to be right now.";
+"poa.address.confirm" = "Is this the place?";
+"poa.address.no_locality" = "That code resolved, but no locality was returned";
+"poa.address.change_it" = "No, change it";
+"poa.address.right" = "Yes, that’s right";
+"poa.address.unchecked" = "We couldn’t check that address right now, so we’ve taken it as you entered it.";
+"poa.address.no_code" = "We could not find a digital address for that spot. Try a point nearer a road, or type your code.";
+"poa.address.lookup_failed" = "We could not look that up";
+"poa.address.not_found" = "We could not find that digital address";
+"poa.location.unavailable" = "This device cannot share its location. Type your digital address instead.";
+"poa.location.denied" = "Location is turned off for this app. Allow it in your settings, or type your digital address instead.";
+"poa.location.timeout" = "Finding your location took too long. Try again, or type your digital address instead.";
+"poa.location.failed" = "Your device could not get a location fix. Type your digital address instead.";
+"poa.requirements.title" = "Any one of these";
+"poa.requirements.type" = "%@ — %@";
+"poa.requirements.age" = "It must be from the last %ld months and show your full name and address.";
+"poa.requirements.formats" = "%@, up to %ld MB.";
+"poa.format.photo" = "photo";
+"poa.format.pdf" = "PDF";
+"poa.format.any" = "Any file";
+"poa.format.or" = "%@ or %@";
+"poa.your_address" = "Your address";
+"poa.change" = "Change";
+"poa.pages.one" = "Page 1 added.";
+"poa.pages.many" = "%ld pages added.";
+"poa.pages.more" = "If your document runs to more than one page, add the rest — otherwise carry on.";
+"poa.pages.max" = "That is the most we can take (4 pages).";
+"poa.refused" = "We couldn't accept this document. Try a clearer photo, or a different document from the list.";
+"poa.too_large" = "That file is too large. Keep it under %ld MB.";
+"poa.unreadable" = "We could not read that file on this device. Try a different one.";
+"poa.prepare_failed" = "That file could not be prepared. Try a different one.";
+"poa.choose_file" = "Choose a file";
+"poa.source.files" = "Files";
+"poa.source.photos" = "Photo library";
+"poa.take_photo" = "Take a photo instead";
+"poa.add_page" = "Add another page";
+"poa.hint.dark" = "Too dark — move into better light";
+"poa.hint.glare" = "Too much glare — tilt the document away from the light";
+"poa.hint.bright" = "Too bright — move out of direct light";
+"poa.hint.blurry" = "Hold steady — the text looks blurry";
+"poa.hint.fit_page" = "Fit the whole page in the frame";
+"poa.hint.hold" = "Hold steady to scan";
+
+"poa.subtitle" = "Show the whole document, including your name and address.";
+
+/* Review (Review.tsx) */
+"review.title" = "Review & submit";
+"review.subtitle" = "Check everything's captured, then send it for review.";
+"review.loading" = "Loading your captured documents…";
+"review.load_error" = "Failed to load";
+"review.captured" = "Captured";
+"review.missing" = "Missing";
+"review.email.opt_in" = "Email me my verification result";
+"review.email.detail" = "We’ll send a result summary after the automated or manual review is complete.";
+"review.email.label" = "Email address for verification result";
+"review.email.placeholder" = "you@example.com";
+"review.email.note" = "Only the outcome and case reference are emailed. Your ID images are never attached.";
+"review.email.invalid" = "Enter a valid email address for your verification result.";
+"review.submit" = "Submit for review";
+"review.error" = "Submit failed";
+"review.processing.scanning" = "Scanning your documents";
+"review.processing.checking" = "Checking your details";
+"review.processing.running" = "Running your checks";
+"review.processing.almost" = "Almost done";
+"review.processing.detail" = "Kindly wait, this can take up to a minute.";
+
+/* Status (Status.tsx) */
+"status.loading" = "Loading your verification status…";
+"status.fully_verified.title" = "You’re fully verified";
+"status.fully_verified.body" = "Your identity is verified and your background screening is complete.";
+"status.verified.title" = "You’re verified";
+"status.verified.body" = "Your identity verification is approved.";
+"status.not_approved.title" = "Not approved";
+"status.not_approved.body" = "Your verification was rejected. Please review and resubmit.";
+"status.closed.title" = "Verification closed";
+"status.closed.body" = "This verification was closed without an approval or rejection decision. Contact the organization that requested it if you need another link.";
+"status.automated.title" = "Automated checks in progress";
+"status.automated.body" = "We’re completing the final checks. This page will update automatically.";
+"status.manual.title" = "Manual review required";
+"status.manual.body" = "Automated checks found something that needs confirmation. No action is required unless we contact you.";
+"status.background_pending.title" = "Identity verified";
+"status.background_pending.body" = "Your identity is confirmed. We’re now completing the background checks, which can take longer. No action is required unless we contact you.";
+"status.in_review.title" = "In review";
+"status.in_review.body" = "A reviewer is checking your verification evidence.";
+"status.submitted.title" = "Verification submitted";
+"status.submitted.body" = "We received your documents and started the verification checks.";
+"status.changes.title" = "Changes requested";
+"status.changes.body" = "The reviewer needs updates before we can finish. Update your documents and resubmit.";
+"status.background.title" = "Background checks in progress";
+"status.background.body" = "We’re completing the required criminal, watchlist and licence searches. No action is required unless we contact you.";
+"status.pending.title" = "Pending review";
+"status.pending.body" = "We received your documents. Verification is in review.";
+"status.identity.title" = "Identity verification";
+"status.identity.done" = "Identity checks completed";
+"status.identity.review" = "A reviewer needs to confirm one result";
+"status.identity.running" = "Identity checks are running";
+"status.badge.verified" = "Verified";
+"status.badge.needs_review" = "Needs review";
+"status.badge.in_progress" = "In progress";
+"status.badge.live" = "Live";
+"status.auto.title" = "Checks are active";
+"status.auto.updates" = "Updates automatically";
+"status.auto.note" = "Automated review can take up to about 3 minutes. This page updates automatically.";
+"status.screening.one" = "%ld screening still in progress";
+"status.screening.many" = "%ld screenings still in progress";
+"status.screening.none" = "Screening searches are active";
+"status.screening.note" = "Some searches need a trained reviewer and can take longer than automated identity checks. This page updates automatically.";
+"status.note" = "Reviewer note:";
+"status.reason.eyebrow" = "Review check";
+"status.reason.mismatch.title" = "Document type mismatch";
+"status.reason.mismatch.message" = "A reviewer will confirm the document type. You do not need to do anything unless we contact you.";
+"status.reason.selected" = "Selected";
+"status.reason.detected" = "Detected";
+"status.reason.name.title" = "Name needs confirmation";
+"status.reason.name.message" = "A reviewer will compare the name you entered with your ID. We will contact you if clarification is needed.";
+"status.reason.number.title" = "Identity number needs confirmation";
+"status.reason.number.message" = "The number entered differs from the number read from the document. A reviewer will confirm it.";
+"status.case_id" = "Case ID: ";
+"status.resubmit" = "Update & resubmit";
+
+"captured.title" = "You're submitting";
+"captured.pdf" = "%@ PDF document";
