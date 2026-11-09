@@ -8,12 +8,12 @@ for the review findings.
 ## Install (Swift Package Manager)
 
 In Xcode choose **File > Add Package Dependencies** and enter
-`https://github.com/fening/identified-ios-sdk`, version **0.1.0** or newer. Or in
+`https://github.com/fening/identified-ios-sdk`, version **0.1.1** or newer. Or in
 `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/fening/identified-ios-sdk", from: "0.1.0"),
+    .package(url: "https://github.com/fening/identified-ios-sdk", from: "0.1.1"),
 ],
 targets: [
     .target(name: "YourApp", dependencies: [
@@ -22,7 +22,16 @@ targets: [
 ]
 ```
 
-Then `import Identified`. Your app's `Info.plist` needs
+Then `import Identified`.
+
+## Install (CocoaPods)
+
+```ruby
+pod 'Identified', '~> 0.1'
+```
+
+Works with `use_frameworks!` and with static libraries. CocoaPods installs two pods,
+`Identified` and its dependency `IdentifiedCore`; import only `Identified`. Your app's `Info.plist` needs
 `NSCameraUsageDescription`.
 
 ## Validation status
